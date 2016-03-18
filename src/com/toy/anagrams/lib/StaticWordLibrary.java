@@ -42,7 +42,9 @@ final class StaticWordLibrary extends WordLibrary
         "is",
         "mad",
         "madras",
-        "mund"
+        "mund",
+        "taske",
+        "gris"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST =
@@ -51,7 +53,9 @@ final class StaticWordLibrary extends WordLibrary
         "si",
         "amd",
         "dramas",
-        "dumn"
+        "dumn",
+        "stake",
+        "sgri"
     };
 
     final static WordLibrary DEFAULT = new StaticWordLibrary();
