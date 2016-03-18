@@ -81,7 +81,7 @@ public class About extends JDialog {
         copyrightTextArea.setColumns(25);
         copyrightTextArea.setLineWrap(true);
         copyrightTextArea.setRows(8);
-        copyrightTextArea.setText("Anagrams\n\nCopyright (c) 2003  Picograms Inc.");
+        copyrightTextArea.setText("Anagram\n\nCopyright (c) 2003  Picograms Inc.");
         copyrightTextArea.setWrapStyleWord(true);
         copyrightTextArea.setBorder(null);
         copyrightTextArea.setFocusable(false);
@@ -94,7 +94,7 @@ public class About extends JDialog {
         mainPanel.add(copyrightTextArea, gridBagConstraints);
 
         closeButton.setMnemonic('C');
-        closeButton.setText("Close");
+        closeButton.setText("Luk");
         closeButton.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
