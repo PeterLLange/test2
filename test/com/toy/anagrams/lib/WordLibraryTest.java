@@ -33,6 +33,8 @@ package com.toy.anagrams.lib;
 
 import java.util.Arrays;
 import junit.framework.TestCase;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Test of the functionality of {@link WordLibrary}.
@@ -44,6 +46,7 @@ public class WordLibraryTest extends TestCase {
         super(testName);
     }
 
+    @Before
     protected void setUp() throws Exception {
         wordLibrary = WordLibrary.getDefault();
     }
@@ -53,6 +56,7 @@ public class WordLibraryTest extends TestCase {
     /**
      * Test of {@link WordLibrary#isCorrect}.
      */
+    @Test
     public void testIsCorrect() {
         for (int i = 0; i < wordLibrary.getSize(); i++) {
             String clearWord = wordLibrary.getWord(i);
